@@ -1,4 +1,4 @@
-group 'com.soa.group10'
+group 'th.ac.kmitl.it.soa.group10'
 version '1.0-SNAPSHOT'
 
 buildscript {
