@@ -11,6 +11,7 @@ class TradeServiceApplicationTests {
 
 	@Test
 	fun contextLoads() {
+
 	}
 
 }
