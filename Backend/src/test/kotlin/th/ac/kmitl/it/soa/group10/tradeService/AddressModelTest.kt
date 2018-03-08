@@ -4,7 +4,6 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 import th.ac.kmitl.it.soa.group10.model.supplyChainTradeTransaction.AddressModel
 
-
 class AddressModelTest {
     var postcode = "74000";
     var cityName = "Samutsakhon"
