@@ -1,6 +1,6 @@
 package th.ac.kmitl.it.soa.group10.tradeService
 
-import model.supplyChainTradeTransaction.SpecifiedTaxRegistrationModel
+import th.ac.kmitl.it.soa.group10.tradeService.model.supplyChainTradeTransaction.SpecifiedTaxRegistrationModel
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
