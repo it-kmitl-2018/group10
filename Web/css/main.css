@@ -2,5 +2,15 @@
 	padding-top: 20px;
 }
 .margin-top{
-	margin-top: 20px;
+	margin-top: 40px;
+}
+.margin-bottom{
+	margin-bottom: 40px;
+}
+.content-blog{
+	background-color: #ffffff;
+}
+body{
+	font-family: 'Prompt';
+	background-color: #e8e8e8;
 }
