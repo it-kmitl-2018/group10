@@ -2,7 +2,7 @@ package th.ac.kmitl.it.soa.group10.tradeService
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
-import th.ac.kmitl.it.soa.group10.model.supplyChainTradeTransaction.AddressModel
+import th.ac.kmitl.it.soa.group10.tradeService.model.supplyChainTradeTransaction.AddressModel
 
 class AddressModelTest {
     var line_one = "99/999";
