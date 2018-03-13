@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody
 @RestController
 class InvoiceController {
     @PostMapping("/showInvoice")
-    fun showInvoice(@RequestBody shipFrom: ShipFromModel) {
+    fun showInvoice(@RequestBody shipFrom: ShipFromModel): ShipFromModel {
         return shipFrom
     }
 }
