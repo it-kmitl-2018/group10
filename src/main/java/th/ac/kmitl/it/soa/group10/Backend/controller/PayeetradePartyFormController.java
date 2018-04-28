@@ -12,26 +12,26 @@ public class PayeetradePartyFormController {
     @PostMapping(path = "/infopayee")
     @ResponseStatus(HttpStatus.CREATED)
     public @ResponseBody String newInfo (@RequestParam String payeeID,
-                                         @RequestParam String payerGlobalID,
-                                         @RequestParam String name,
-                                         @RequestParam String taxID,
-                                         @RequestParam String email,
-                                         @RequestParam String buildingName,
-                                         @RequestParam String buildingNo,
-                                         @RequestParam String alley,
-                                         @RequestParam String village,
-                                         @RequestParam String villageNo,
-                                         @RequestParam String street,
-                                         @RequestParam String subDistrict,
-                                         @RequestParam String district,
-                                         @RequestParam String subCountry,
-                                         @RequestParam String countrycode,
-                                         @RequestParam String postcode,
-                                         @RequestParam String addrLineOne,
-                                         @RequestParam String addrLineTwo) {
+                                         @RequestParam String payeeGlobalID,
+                                         @RequestParam String payeeName,
+                                         @RequestParam String payeeTaxID,
+                                         @RequestParam String payeeEmail,
+                                         @RequestParam String payeeBuildingName,
+                                         @RequestParam String payeeBuildingNo,
+                                         @RequestParam String payeeAlley,
+                                         @RequestParam String payeeVillage,
+                                         @RequestParam String payeeVillageNo,
+                                         @RequestParam String payeeStreet,
+                                         @RequestParam String payeeSubDistrict,
+                                         @RequestParam String payeeDistrict,
+                                         @RequestParam String payeeSubCountry,
+                                         @RequestParam String payeeCountryCode,
+                                         @RequestParam String payeePostCode,
+                                         @RequestParam String payeeAddrLineOne,
+                                         @RequestParam String payeeAddrLineTwo) {
 
 
-        System.out.print(payeeID + " " + name);
-        return payeeID + " " + name;
+        System.out.print(payeeID + " " + payeeName);
+        return payeeID + " " + payeeName;
     }
 }
