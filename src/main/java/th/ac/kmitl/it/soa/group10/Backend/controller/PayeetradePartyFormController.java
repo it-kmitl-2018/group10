@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 @RestController
 @RequestMapping("/api")
 public class PayeetradePartyFormController {
-    @PostMapping(path = "/info")
+    @PostMapping(path = "/infopayee")
     @ResponseStatus(HttpStatus.CREATED)
     public @ResponseBody String newInfo (@RequestParam String id,
                                          @RequestParam String payerGlobalID,
