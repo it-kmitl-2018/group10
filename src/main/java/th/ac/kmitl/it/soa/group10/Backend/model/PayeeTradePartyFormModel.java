@@ -1,166 +1,166 @@
 package th.ac.kmitl.it.soa.group10.Backend.model;
 
 public class PayeeTradePartyFormModel {
-    String id;
-    String payerGlobalID;
-    String name;
-    String taxID;
-    String email;
-    String buildingName;
-    String buildingNo;
-    String alley;
-    String village;
-    String villageNo;
-    String street;
-    String subDistrict;
-    String district;
-    String subCountry;
-    String countrycode;
-    String postcode;
-    String addrLineOne;
-    String addrLineTwo;
+    String payeeID;
+    String payeeGlobalID;
+    String payeeName;
+    String payeeTaxID;
+    String payeeEmail;
+    String payeeBuildingName;
+    String payeeBuildingNo;
+    String payeeAlley;
+    String payeeVillage;
+    String payeeVillageNo;
+    String payeeStreet;
+    String payeeSubDistrict;
+    String payeeDistrict;
+    String payeeSubCountry;
+    String payeeCountryCode;
+    String payeePostCode;
+    String payeeAddrLineOne;
+    String payeeAddrLineTwo;
 
-    public String getId() {
-        return id;
+    public String getPayeeID() {
+        return payeeID;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setPayeeID(String payeeID) {
+        this.payeeID = payeeID;
     }
 
-    public String getPayerGlobalID() {
-        return payerGlobalID;
+    public String getPayeeGlobalID() {
+        return payeeGlobalID;
     }
 
-    public void setPayerGlobalID(String payerGlobalID) {
-        this.payerGlobalID = payerGlobalID;
+    public void setPayeeGlobalID(String payeeGlobalID) {
+        this.payeeGlobalID = payeeGlobalID;
     }
 
-    public String getName() {
-        return name;
+    public String getPayeeName() {
+        return payeeName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setPayeeName(String payeeName) {
+        this.payeeName = payeeName;
     }
 
-    public String getTaxID() {
-        return taxID;
+    public String getPayeeTaxID() {
+        return payeeTaxID;
     }
 
-    public void setTaxID(String taxID) {
-        this.taxID = taxID;
+    public void setPayeeTaxID(String payeeTaxID) {
+        this.payeeTaxID = payeeTaxID;
     }
 
-    public String getEmail() {
-        return email;
+    public String getPayeeEmail() {
+        return payeeEmail;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setPayeeEmail(String payeeEmail) {
+        this.payeeEmail = payeeEmail;
     }
 
-    public String getBuildingName() {
-        return buildingName;
+    public String getPayeeBuildingName() {
+        return payeeBuildingName;
     }
 
-    public void setBuildingName(String buildingName) {
-        this.buildingName = buildingName;
+    public void setPayeeBuildingName(String payeeBuildingName) {
+        this.payeeBuildingName = payeeBuildingName;
     }
 
-    public String getBuildingNo() {
-        return buildingNo;
+    public String getPayeeBuildingNo() {
+        return payeeBuildingNo;
     }
 
-    public void setBuildingNo(String buildingNo) {
-        this.buildingNo = buildingNo;
+    public void setPayeeBuildingNo(String payeeBuildingNo) {
+        this.payeeBuildingNo = payeeBuildingNo;
     }
 
-    public String getAlley() {
-        return alley;
+    public String getPayeeAlley() {
+        return payeeAlley;
     }
 
-    public void setAlley(String alley) {
-        this.alley = alley;
+    public void setPayeeAlley(String payeeAlley) {
+        this.payeeAlley = payeeAlley;
     }
 
-    public String getVillage() {
-        return village;
+    public String getPayeeVillage() {
+        return payeeVillage;
     }
 
-    public void setVillage(String village) {
-        this.village = village;
+    public void setPayeeVillage(String payeeVillage) {
+        this.payeeVillage = payeeVillage;
     }
 
-    public String getVillageNo() {
-        return villageNo;
+    public String getPayeeVillageNo() {
+        return payeeVillageNo;
     }
 
-    public void setVillageNo(String villageNo) {
-        this.villageNo = villageNo;
+    public void setPayeeVillageNo(String payeeVillageNo) {
+        this.payeeVillageNo = payeeVillageNo;
     }
 
-    public String getStreet() {
-        return street;
+    public String getPayeeStreet() {
+        return payeeStreet;
     }
 
-    public void setStreet(String street) {
-        this.street = street;
+    public void setPayeeStreet(String payeeStreet) {
+        this.payeeStreet = payeeStreet;
     }
 
-    public String getSubDistrict() {
-        return subDistrict;
+    public String getPayeeSubDistrict() {
+        return payeeSubDistrict;
     }
 
-    public void setSubDistrict(String subDistrict) {
-        this.subDistrict = subDistrict;
+    public void setPayeeSubDistrict(String payeeSubDistrict) {
+        this.payeeSubDistrict = payeeSubDistrict;
     }
 
-    public String getDistrict() {
-        return district;
+    public String getPayeeDistrict() {
+        return payeeDistrict;
     }
 
-    public void setDistrict(String district) {
-        this.district = district;
+    public void setPayeeDistrict(String payeeDistrict) {
+        this.payeeDistrict = payeeDistrict;
     }
 
-    public String getSubCountry() {
-        return subCountry;
+    public String getPayeeSubCountry() {
+        return payeeSubCountry;
     }
 
-    public void setSubCountry(String subCountry) {
-        this.subCountry = subCountry;
+    public void setPayeeSubCountry(String payeeSubCountry) {
+        this.payeeSubCountry = payeeSubCountry;
     }
 
-    public String getCountrycode() {
-        return countrycode;
+    public String getPayeeCountryCode() {
+        return payeeCountryCode;
     }
 
-    public void setCountrycode(String countrycode) {
-        this.countrycode = countrycode;
+    public void setPayeeCountryCode(String payeeCountryCode) {
+        this.payeeCountryCode = payeeCountryCode;
     }
 
-    public String getPostcode() {
-        return postcode;
+    public String getPayeePostCode() {
+        return payeePostCode;
     }
 
-    public void setPostcode(String postcode) {
-        this.postcode = postcode;
+    public void setPayeePostCode(String payeePostCode) {
+        this.payeePostCode = payeePostCode;
     }
 
-    public String getAddrLineOne() {
-        return addrLineOne;
+    public String getPayeeAddrLineOne() {
+        return payeeAddrLineOne;
     }
 
-    public void setAddrLineOne(String addrLineOne) {
-        this.addrLineOne = addrLineOne;
+    public void setPayeeAddrLineOne(String payeeAddrLineOne) {
+        this.payeeAddrLineOne = payeeAddrLineOne;
     }
 
-    public String getAddrLineTwo() {
-        return addrLineTwo;
+    public String getPayeeAddrLineTwo() {
+        return payeeAddrLineTwo;
     }
 
-    public void setAddrLineTwo(String addrLineTwo) {
-        this.addrLineTwo = addrLineTwo;
+    public void setPayeeAddrLineTwo(String payeeAddrLineTwo) {
+        this.payeeAddrLineTwo = payeeAddrLineTwo;
     }
 }
