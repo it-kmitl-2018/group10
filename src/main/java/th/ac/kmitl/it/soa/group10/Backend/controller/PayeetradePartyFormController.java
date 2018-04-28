@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 public class PayeetradePartyFormController {
     @PostMapping(path = "/infopayee")
     @ResponseStatus(HttpStatus.CREATED)
-    public @ResponseBody String newInfo (@RequestParam String id,
+    public @ResponseBody String newInfo (@RequestParam String payeeID,
                                          @RequestParam String payerGlobalID,
                                          @RequestParam String name,
                                          @RequestParam String taxID,
@@ -31,7 +31,7 @@ public class PayeetradePartyFormController {
                                          @RequestParam String addrLineTwo) {
 
 
-        System.out.print(id + " " + name);
-        return id + " " + name;
+        System.out.print(payeeID + " " + name);
+        return payeeID + " " + name;
     }
 }
