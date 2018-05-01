@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group10.backend.model;
+package th.ac.kmitl.it.soa.group10.Backend.model;
 
 public class ConsigneeForm {
     private String id;
