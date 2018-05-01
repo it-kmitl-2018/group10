@@ -1,6 +1,6 @@
-package th.ac.kmitl.it.soa.group10.Backend.model;
+package th.ac.kmitl.it.soa.group10.backend.model;
 
-public class SellerModel {
+public class SellerForm {
     private String id;
     private String globalID;
     private String name;
