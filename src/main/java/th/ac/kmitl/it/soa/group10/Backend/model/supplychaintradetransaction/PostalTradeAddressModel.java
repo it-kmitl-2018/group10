@@ -1,6 +1,6 @@
-package th.ac.kmitl.it.soa.group10.Backend.model.DocumentRecipient;
+package th.ac.kmitl.it.soa.group10.Backend.model.supplychaintradetransaction;
 
-public class PostalTradeAddress {
+public class PostalTradeAddressModel {
     private String postalCode;
     private String building;
     private String addressLineOne;
