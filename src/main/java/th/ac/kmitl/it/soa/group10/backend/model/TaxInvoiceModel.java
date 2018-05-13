@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group10.backend.model.supplychaintradetransaction;
+package th.ac.kmitl.it.soa.group10.backend.model;
 
 public class TaxInvoiceModel {
     private String taxCode;
