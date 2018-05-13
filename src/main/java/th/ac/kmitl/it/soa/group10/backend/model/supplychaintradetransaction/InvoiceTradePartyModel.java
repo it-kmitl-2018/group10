@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group10.Backend.model.supplychaintradetransaction;
+package th.ac.kmitl.it.soa.group10.backend.model.supplychaintradetransaction;
 
 public class InvoiceTradePartyModel {
     private String id;
