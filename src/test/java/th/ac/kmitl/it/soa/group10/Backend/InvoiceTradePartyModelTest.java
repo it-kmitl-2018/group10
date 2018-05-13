@@ -1,7 +1,7 @@
 package th.ac.kmitl.it.soa.group10.backend;
 
 import org.junit.Test;
-import th.ac.kmitl.it.soa.group10.Backend.model.supplychaintradetransaction.InvoiceTradePartyModel;
+import th.ac.kmitl.it.soa.group10.backend.model.supplychaintradetransaction.InvoiceTradePartyModel;
 
 import static org.junit.Assert.assertEquals;
 
