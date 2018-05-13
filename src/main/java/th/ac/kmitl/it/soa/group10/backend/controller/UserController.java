@@ -1,9 +1,9 @@
-package th.ac.kmitl.it.soa.group10.Backend.controller;
+package th.ac.kmitl.it.soa.group10.backend.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import th.ac.kmitl.it.soa.group10.Backend.model.User;
+import th.ac.kmitl.it.soa.group10.backend.model.User;
 
 @RestController
 public class UserController {

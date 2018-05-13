@@ -1,4 +1,4 @@
-package th.ac.kmitl.it.soa.group10.Backend;
+package th.ac.kmitl.it.soa.group10.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
