@@ -1,7 +1,7 @@
-package th.ac.kmitl.it.soa.group10.Backend;
+package th.ac.kmitl.it.soa.group10.backend;
 
 import org.junit.Test;
-import th.ac.kmitl.it.soa.group10.Backend.model.supplychaintradetransaction.TaxInvoiceModel;
+import th.ac.kmitl.it.soa.group10.backend.model.supplychaintradetransaction.TaxInvoiceModel;
 
 import static org.junit.Assert.assertEquals;
 
@@ -34,5 +34,5 @@ public class TaxInvoiceModelTest {
         taxInvoice.setVatAmount("774");
         assertEquals("774", taxInvoice.getVatAmount());
     }
-    
+
 }
