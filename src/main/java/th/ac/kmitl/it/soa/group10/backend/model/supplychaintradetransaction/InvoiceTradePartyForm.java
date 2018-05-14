@@ -1,6 +1,6 @@
 package th.ac.kmitl.it.soa.group10.backend.model.supplychaintradetransaction;
 
-public class InvoiceTradePartyModel {
+public class InvoiceTradePartyForm {
     private String id;
     private String gloBalID;
     private String name;
