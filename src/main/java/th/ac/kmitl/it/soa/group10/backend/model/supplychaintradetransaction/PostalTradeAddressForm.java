@@ -1,6 +1,6 @@
 package th.ac.kmitl.it.soa.group10.backend.model.supplychaintradetransaction;
 
-public class PostalTradeAddressModel {
+public class PostalTradeAddressForm {
     private String postalCode;
     private String building;
     private String addressLineOne;
